@@ -22,11 +22,8 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   arr = [
-    DON_G,
-    JOELLE_VD,
-    PAT_M,
-    KATE_G,
-    BRUCE_G
+    {name: "Apple", age: 5},
+    {name: "Allen", age: 20}
   ]
   arr.sort
 end
