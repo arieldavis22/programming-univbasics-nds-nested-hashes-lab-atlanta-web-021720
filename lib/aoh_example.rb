@@ -22,10 +22,12 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   arr = [
-    {name: "Apple", age: 5},
-    {name: "Allen", age: 20}
+    DON_G,
+    JOELLE_VD,
+    PAT_M,
+    KATE_G,
+    BRUCE_G
   ]
-  arr.sort
 end
 
 def aoh_lookup(aoh, row, key)
